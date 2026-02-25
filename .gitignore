@@ -1,0 +1,36 @@
+# ==========================================
+# Proto_Redis Master Git Ignore
+# ==========================================
+
+# --- Build Artifacts ---
+# Ignore the entire build and bin directories in any subfolder
+**/build/
+**/bin/
+
+# Ignore object files and dependency files
+*.o
+*.d
+
+# --- Executables ---
+# Ignore the specific compiled binaries
+my_redis_server
+my_redis_cli
+my_redis_server.exe
+my_redis_cli.exe
+
+# --- Local Data & Logs ---
+# Keep your local test database off GitHub
+*.my_rdb
+*.log
+
+# --- System Specific ---
+# Ignore Windows/macOS/Linux metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- VS Code / IDE Settings ---
+# Ignore local editor configurations
+.vscode/
+.idea/
+*.swp

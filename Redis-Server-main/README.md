@@ -37,7 +37,7 @@ Data is automatically dumped to `dump.my_rdb` every 300 seconds and on graceful 
 ├── Concepts,UseCases&Tests.md    # Design concepts and command use cases
 ├── Makefile                # Build rules
 ├── README.md               # This documentation
-└── test_all.sh             # Bash script for all tests
+
 ```
 
 ---

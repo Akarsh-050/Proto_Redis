@@ -1,0 +1,21 @@
+# Build Artifacts
+build/
+bin/
+*.o
+my_redis_server
+
+# Database / Persistence
+dump.my_rdb
+
+# Version Control
+.git
+.gitignore
+.gitattributes
+
+# Documentation & Local Scripts
+*.md
+test_all.sh
+
+# Docker itself
+Dockerfile
+.dockerignore
